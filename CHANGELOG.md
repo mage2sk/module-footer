@@ -4,7 +4,19 @@ All notable changes to this extension are documented here. The format
 is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] — Initial release
+## [1.0.4] - 2026-06-18
+
+### Changed
+- Rewrote README to match the Panth Infotech gold template: added SEO
+  meta comment, Quick Answer section, gold-template badge row with live
+  product URL, Table of Contents, Who Is It For, Key Features grouped by
+  area, full Configuration table reflecting real system.xml fields, How
+  It Works, expanded FAQ, Support table, Quick Links table, and closing
+  CTA. Removed inaccurate claims (unlimited columns, 14+ social networks,
+  drag-and-drop ordering, GDPR checkbox, reCAPTCHA setting, per-field
+  color pickers, scroll threshold field) not present in system.xml.
+
+## [1.0.0] - Initial release
 
 ### Added
 - **Multi-column footer layout** — configurable 2, 3, or 4 column

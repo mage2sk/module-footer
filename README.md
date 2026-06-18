@@ -1,34 +1,49 @@
 <!-- SEO Meta -->
 <!--
-  Title: Custom Footer for Magento 2 | Panth Infotech
-  Description: Panth Footer is a fully configurable custom footer extension for Magento 2 with multi-column layout, social media links, newsletter subscription, back-to-top button, and full admin configuration. Supports Hyva and Luma themes. Compatible with Magento 2.4.4 - 2.4.8 and PHP 8.1 - 8.4. Built by Top Rated Plus Magento developer Kishan Savaliya.
-  Keywords: magento 2 custom footer, magento 2 footer extension, magento 2 footer builder, hyva footer, luma footer, magento 2 social media links, magento 2 newsletter footer, magento 2 back to top, panth footer, panth infotech, hire magento developer, top rated plus upwork
+  Title: Magento 2 Footer Extension: Multi-Column Layout, Social Links, Newsletter, Back to Top | Hyva + Luma | Panth Infotech
+  Description: Panth Footer replaces the Magento 2 default footer with a fully configurable multi-column layout, social media links (Facebook, Twitter, Instagram, LinkedIn, YouTube, Pinterest), AJAX newsletter subscription, back-to-top button, and a bottom bar with payment icons and copyright text. Native Hyva (Alpine.js) and Luma templates included. Works on Magento 2.4.4 to 2.4.8 and PHP 8.1 to 8.4. Built by Top Rated Plus Magento developer Kishan Savaliya.
+  Keywords: magento 2 footer extension, magento 2 custom footer, magento 2 footer builder, hyva footer, luma footer, magento 2 social media footer, magento 2 newsletter footer, magento 2 back to top button, magento 2 multi-column footer, magento 2 footer module, panth footer, panth infotech
   Author: Kishan Savaliya (Panth Infotech)
-  Canonical: https://github.com/mage2sk/module-footer
+  Canonical: https://kishansavaliya.com/magento-2-footer.html
 -->
 
-# Custom Footer for Magento 2 | Panth Infotech
+# Magento 2 Footer Extension: Multi-Column Layout, Social Links, Newsletter and Back to Top (Hyva + Luma)
 
 [![Magento 2.4.4 - 2.4.8](https://img.shields.io/badge/Magento-2.4.4%20--%202.4.8-orange?logo=magento&logoColor=white)](https://magento.com)
 [![PHP 8.1 - 8.4](https://img.shields.io/badge/PHP-8.1%20--%208.4-blue?logo=php&logoColor=white)](https://php.net)
-[![Hyva Compatible](https://img.shields.io/badge/Hyva-Compatible-7C3AED?logo=alpinedotjs&logoColor=white)](https://www.hyva.io)
-[![Luma Compatible](https://img.shields.io/badge/Luma-Compatible-F26322?logo=magento&logoColor=white)](https://magento.com)
+[![Hyva + Luma](https://img.shields.io/badge/Themes-Hyva%20%2B%20Luma-14b8a6)](https://www.hyva.io)
+[![Live Demo & Details](https://img.shields.io/badge/Live%20Demo%20%26%20Details-magento--2--footer-0D9488?style=flat)](https://kishansavaliya.com/magento-2-footer.html)
 [![Packagist](https://img.shields.io/badge/Packagist-mage2kishan%2Fmodule--footer-orange?logo=packagist&logoColor=white)](https://packagist.org/packages/mage2kishan/module-footer)
 [![Upwork Top Rated Plus](https://img.shields.io/badge/Upwork-Top%20Rated%20Plus-14a800?logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~016dd1767321100e21)
-[![Panth Infotech Agency](https://img.shields.io/badge/Agency-Panth%20Infotech-14a800?logo=upwork&logoColor=white)](https://www.upwork.com/agencies/1881421506131960778/)
-[![Get a Quote](https://img.shields.io/badge/Get%20a%20Quote-Free%20Estimate-DC2626)](https://kishansavaliya.com/get-quote)
+[![Website](https://img.shields.io/badge/Website-kishansavaliya.com-0D9488)](https://kishansavaliya.com)
 
-> **Fully configurable custom footer** for Magento 2 with multi-column layout, social media links, newsletter subscription, back-to-top button, and complete admin-side control. Works seamlessly on both **Hyva** and **Luma** themes, with no theme hacks or template overrides required.
+> **Replace the default Magento footer with a fully configurable one.** Panth Footer gives you a multi-column layout, social media links, an AJAX newsletter form, a back-to-top button, and a bottom bar with payment icons and copyright text. Everything is controlled from the Magento admin panel. Native templates for **Hyva (Alpine.js)** and **Luma** are both included.
 
-**Panth Footer** replaces the stock Magento 2 footer with a modern, flexible, and SEO-friendly footer that store owners can configure entirely from the admin panel. Add unlimited columns, static block content, social media icons, a newsletter signup form, payment logos, copyright text, and a smooth back-to-top button — all without touching a single line of code. The extension is fully responsive, translation-ready, and optimized for Core Web Vitals.
-
-Whether you run a small Hyva storefront or a large Luma-based multi-store, Panth Footer gives your merchandising and marketing teams full control over one of the most-seen sections of your site.
+**Product page:** [kishansavaliya.com/magento-2-footer.html](https://kishansavaliya.com/magento-2-footer.html)
 
 ---
 
-## 🚀 Need Custom Magento 2 Development?
+## Quick Answer
 
-> **Get a free quote for your project in 24 hours** — custom modules, Hyva themes, performance optimization, M1→M2 migrations, and Adobe Commerce Cloud.
+**What is Panth Footer?** It is a Magento 2 footer extension that replaces the stock footer with a configurable multi-column layout you manage entirely from the admin panel, without editing templates or theme files.
+
+**What does it add to my store?**
+
+- A **multi-column footer layout** with up to four columns, each independently configurable.
+- **Social media links** for Facebook, Twitter/X, Instagram, LinkedIn, YouTube, and Pinterest.
+- An **AJAX newsletter form** in the footer so visitors subscribe without a page reload.
+- A **back-to-top button** with configurable position (bottom-right or bottom-left).
+- A **bottom bar** with copyright text (supports `{{year}}`), payment icons, and bottom navigation links.
+
+**Which themes are supported?** Both **Hyva** (Alpine.js, no jQuery) and **Luma**. The correct template loads automatically based on the active theme.
+
+**What does it need?** Magento 2.4.4 to 2.4.8, PHP 8.1 to 8.4, and the free `mage2kishan/module-core` package.
+
+---
+
+## Need Custom Magento 2 Development?
+
+> **Get a free quote for your project in 24 hours** for custom modules, Hyva themes, performance work, M1 to M2 migrations, and Adobe Commerce Cloud.
 
 <p align="center">
   <a href="https://kishansavaliya.com/get-quote">
@@ -40,7 +55,7 @@ Whether you run a small Hyva storefront or a large Luma-based multi-store, Panth
 <tr>
 <td width="50%" align="center">
 
-### 🏆 Kishan Savaliya
+### Kishan Savaliya
 **Top Rated Plus on Upwork**
 
 [![Hire on Upwork](https://img.shields.io/badge/Hire%20on%20Upwork-Top%20Rated%20Plus-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~016dd1767321100e21)
@@ -51,7 +66,7 @@ Adobe Certified • Hyva Specialist
 </td>
 <td width="50%" align="center">
 
-### 🏢 Panth Infotech Agency
+### Panth Infotech Agency
 **Magento Development Team**
 
 [![Visit Agency](https://img.shields.io/badge/Visit%20Agency-Panth%20Infotech-14a800?style=for-the-badge&logo=upwork&logoColor=white)](https://www.upwork.com/agencies/1881421506131960778/)
@@ -69,17 +84,12 @@ Performance • SEO • Adobe Commerce Cloud
 
 ## Table of Contents
 
+- [Who Is It For](#who-is-it-for)
 - [Key Features](#key-features)
-- [Why Choose Panth Footer](#why-choose-panth-footer)
 - [Compatibility](#compatibility)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Multi-Column Layout](#multi-column-layout)
-- [Social Media Links](#social-media-links)
-- [Newsletter Subscription](#newsletter-subscription)
-- [Back-to-Top Button](#back-to-top-button)
-- [Hyva & Luma Support](#hyva--luma-support)
-- [Troubleshooting](#troubleshooting)
+- [How It Works](#how-it-works)
 - [FAQ](#faq)
 - [Support](#support)
 - [About Panth Infotech](#about-panth-infotech)
@@ -87,66 +97,64 @@ Performance • SEO • Adobe Commerce Cloud
 
 ---
 
-## Key Features
+## Who Is It For
 
-### Layout & Content
-
-- **Multi-column layout** — add unlimited configurable columns with custom titles, links, and content
-- **CMS block support** — render any Magento CMS block inside a footer column for maximum flexibility
-- **Drag-and-drop column ordering** — reorder columns directly from the admin grid
-- **Fully responsive** — mobile-first grid that collapses gracefully on tablets and phones
-- **Store-view scoped** — configure different footers per store view, website, or globally
-
-### Social Media Links
-
-- **14+ supported networks** — Facebook, Instagram, X (Twitter), YouTube, LinkedIn, Pinterest, TikTok, WhatsApp, Telegram, Threads, Reddit, Discord, Snapchat, and more
-- **Icon-based display** — clean SVG icons with hover effects, no heavy webfonts
-- **Rel/target controls** — per-link `rel="noopener"` and `target="_blank"` settings for SEO and security
-- **Custom ordering** — sort your social links in any order
-
-### Newsletter Subscription
-
-- **Native Magento integration** — uses Magento's built-in newsletter subscriber system
-- **AJAX submission** — no page reload on signup, with inline success/error messages
-- **Configurable title and description** — fully editable from admin
-- **GDPR-friendly** — optional consent checkbox text
-- **reCAPTCHA compatible** — works with Magento 2 Google reCAPTCHA if enabled
-
-### Back-to-Top Button
-
-- **Smooth scroll** — native smooth-scroll with no jQuery dependency
-- **Configurable scroll threshold** — show the button after N pixels of scroll
-- **Customizable position** — bottom-right, bottom-left, bottom-center
-- **Accessible** — keyboard-focusable with proper ARIA labels
-- **Hyva + Alpine.js** on Hyva, vanilla JS on Luma
-
-### Admin Configuration
-
-- **Dedicated Stores → Configuration section** — all settings under `Panth Extensions → Footer`
-- **Enable/disable per feature** — toggle columns, social, newsletter, back-to-top independently
-- **WYSIWYG editor** — for copyright text, column content, and rich HTML areas
-- **Store-view scope** — override any setting per store view
-
-### Performance & SEO
-
-- **Zero JS on Luma when disabled** — no assets loaded if features are disabled
-- **Tailwind-friendly** — ships Hyva templates with Tailwind utility classes
-- **Lighthouse-friendly** — no layout shift (CLS), inline critical CSS
-- **Semantic HTML5** — proper `<footer>`, `<nav>`, and schema markup for social profiles
-- **Lazy-loaded social icons** — SVG sprite loaded once, reused everywhere
+- **Store owners who want a branded footer** but do not want to edit theme templates or hire a developer for every change.
+- **Merchants running multiple store views** who need different footer content, links, or contact details per store.
+- **Hyva storefronts** that need a footer built with Alpine.js so no jQuery is pulled back in.
+- **Marketing and content teams** who manage footer links, newsletter copy, and social URLs directly in the Magento admin.
+- **Stores with long pages** (category grids, blog posts) where a back-to-top button helps users get back quickly.
 
 ---
 
-## Why Choose Panth Footer
+## Key Features
 
-| Pain Point | Panth Footer Solution |
-|---|---|
-| Stock Magento footer is hardcoded and boring | Fully configurable multi-column layout from admin |
-| Social media links need theme-level edits | Admin-managed social links with 14+ networks |
-| Newsletter form is buried in sidebar | Prominent newsletter footer block with AJAX |
-| No back-to-top on long category pages | Built-in, configurable back-to-top button |
-| Different themes need different footer templates | One extension works on both Hyva and Luma |
-| Multi-store setups need per-store footers | Full store-view scope for every setting |
+### Multi-Column Layout
+
+- **Up to four columns** in the footer, each toggleable from admin.
+- **Column 1** shows the store logo, an about text paragraph, and social media icons.
+- **Columns 2 and 3** are link columns. Links are entered as a JSON array with title, URL, and target in admin.
+- **Column 4** is a contact column with phone (click-to-call), email (mailto), physical address, and working hours.
+- **Footer layout selector** lets you choose a 2, 3, or 4 column layout to match your design.
+- **Store-view scope** on every setting, so each store view can have its own columns and content.
+
+### Social Media Links
+
+- **Six networks** supported out of the box: Facebook, Twitter/X, Instagram, LinkedIn, YouTube, and Pinterest.
+- **Shown in Column 1** below the about text. Leave a URL empty to hide that icon.
+- **Inline SVG icons** for crisp rendering on all screens.
+
+### AJAX Newsletter Form
+
+- **Dedicated newsletter section** that sits above the footer columns or inside the footer area.
+- **Configurable title, subtitle, benefits list, placeholder text, and button label** all from admin.
+- **AJAX form submission** using Magento's built-in newsletter subscriber system, no page reload.
+- Subscribers flow directly into the Magento newsletter subscriber list.
+
+### Back-to-Top Button
+
+- **Floating back-to-top button** that appears after the user scrolls down.
+- **Configurable position**: bottom-right or bottom-left.
+- **Hyva** uses an Alpine.js directive; **Luma** uses vanilla JavaScript. No jQuery required on either.
+- Keyboard-focusable with proper ARIA labels.
+
+### Bottom Bar
+
+- **Copyright text** with `{{year}}` auto-replacement for the current year. HTML is allowed.
+- **Payment icons** (Visa, Mastercard, PayPal, Amex) toggled on or off from admin.
+- **Bottom navigation links** as a JSON array (Privacy Policy, Terms, Cookie Policy, etc.) with a show/hide toggle.
+
+### Hyva and Luma Ready
+
+- **Native Hyva templates** built with Tailwind CSS and Alpine.js, no jQuery or RequireJS.
+- **Native Luma templates** using standard Magento frontend patterns with vanilla JS.
+- **Automatic theme detection** via `Panth\Core\Helper\Theme`, so the correct template loads without any manual setup.
+
+### Clean, Maintainable Code
+
+- **Constructor dependency injection** throughout, no ObjectManager calls.
+- **Full Page Cache friendly**, the footer renders server-side with no FPC breaks.
+- **Translation ready**, every label uses Magento's `__()` function.
 
 ---
 
@@ -156,19 +164,11 @@ Performance • SEO • Adobe Commerce Cloud
 |---|---|
 | Magento Open Source | 2.4.4, 2.4.5, 2.4.6, 2.4.7, 2.4.8 |
 | Adobe Commerce | 2.4.4, 2.4.5, 2.4.6, 2.4.7, 2.4.8 |
-| Adobe Commerce Cloud | 2.4.4 — 2.4.8 |
+| Adobe Commerce Cloud | 2.4.4 to 2.4.8 |
 | PHP | 8.1.x, 8.2.x, 8.3.x, 8.4.x |
-| MySQL | 8.0+ |
-| MariaDB | 10.4+ |
-| Hyva Theme | 1.3+ (fully supported) |
+| Hyva Theme | 1.3+ (native Alpine.js support) |
 | Luma Theme | Native support |
-
-Tested on:
-- Magento 2.4.8-p4 with PHP 8.4 (Hyva 1.3.x)
-- Magento 2.4.7 with PHP 8.3 (Hyva + Luma)
-- Magento 2.4.6 with PHP 8.2 (Luma)
-
-**Required dependency:** [Panth_Core](https://packagist.org/packages/mage2kishan/module-core) (free, installed automatically by Composer).
+| Required Dependency | `mage2kishan/module-core` (free) |
 
 ---
 
@@ -187,143 +187,82 @@ bin/magento cache:flush
 
 ### Manual Installation via ZIP
 
-1. Download the latest release ZIP from [Packagist](https://packagist.org/packages/mage2kishan/module-footer) or the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com)
-2. Extract the contents to `app/code/Panth/Footer/` in your Magento installation
-3. Also install [Panth_Core](https://packagist.org/packages/mage2kishan/module-core) into `app/code/Panth/Core/`
-4. Run the same commands as above starting from `bin/magento module:enable`
+1. Download the latest release from [Packagist](https://packagist.org/packages/mage2kishan/module-footer) or from the [product page](https://kishansavaliya.com/magento-2-footer.html).
+2. Extract it to `app/code/Panth/Footer/` in your Magento install.
+3. Make sure `Panth_Core` is installed too (required dependency).
+4. Run the commands above starting from `bin/magento module:enable`.
 
 ### Verify Installation
 
 ```bash
 bin/magento module:status Panth_Footer
-# Expected output: Module is enabled
+# Expected: Module is enabled
 ```
 
-After installation, navigate to:
+After install, open:
 ```
-Admin → Stores → Configuration → Panth Extensions → Footer
+Admin -> Stores -> Configuration -> Panth Extensions -> Footer Configuration
 ```
 
 ---
 
 ## Configuration
 
-All settings live under **Stores → Configuration → Panth Extensions → Footer**.
+Go to **Stores -> Configuration -> Panth Extensions -> Footer Configuration**.
 
-### General Settings
+| Setting | Group | Default | Description |
+|---|---|---|---|
+| Enable Custom Footer | General | Yes | Master toggle. When disabled, the default Magento footer is used. |
+| Footer Layout | General | 4 | Number of columns in the footer (2, 3, or 4). |
+| Enable Column 1 | Column 1 - Logo and About | Yes | Show the logo/about column. |
+| Show Logo | Column 1 - Logo and About | Yes | Display the store logo in column 1. |
+| Column Title | Column 1 - Logo and About | (empty) | Heading above the about text. |
+| About Text | Column 1 - Logo and About | Store description | Short paragraph about your store. HTML allowed. |
+| Show Social Media Icons | Column 1 - Logo and About | Yes | Show social icons below the about text. |
+| Enable Column 2 | Column 2 - Quick Links | Yes | Show the quick links column. |
+| Column Title | Column 2 - Quick Links | Shop | Heading for column 2. |
+| Links (JSON Format) | Column 2 - Quick Links | Sample links | JSON array of link objects with title, url, and target. |
+| Enable Column 3 | Column 3 - Customer Service | Yes | Show the customer service links column. |
+| Column Title | Column 3 - Customer Service | Customer Service | Heading for column 3. |
+| Links (JSON Format) | Column 3 - Customer Service | Sample links | JSON array of link objects with title, url, and target. |
+| Enable Column 4 | Column 4 - Contact Information | Yes | Show the contact info column. |
+| Column Title | Column 4 - Contact Information | Contact | Heading for column 4. |
+| Show Contact Information | Column 4 - Contact Information | Yes | Toggle phone, email, address, and hours. |
+| Phone Number | Column 4 - Contact Information | (sample) | Renders as a click-to-call link. |
+| Email Address | Column 4 - Contact Information | (sample) | Renders as a mailto link. |
+| Physical Address | Column 4 - Contact Information | (sample) | Plain text address. |
+| Working Hours | Column 4 - Contact Information | (sample) | Plain text hours. |
+| Facebook URL | Social Media Links | (empty) | Leave empty to hide the Facebook icon. |
+| Twitter/X URL | Social Media Links | (empty) | Leave empty to hide the Twitter/X icon. |
+| Instagram URL | Social Media Links | (empty) | Leave empty to hide the Instagram icon. |
+| LinkedIn URL | Social Media Links | (empty) | Leave empty to hide the LinkedIn icon. |
+| YouTube URL | Social Media Links | (empty) | Leave empty to hide the YouTube icon. |
+| Pinterest URL | Social Media Links | (empty) | Leave empty to hide the Pinterest icon. |
+| Enable Newsletter Section | Newsletter Section | Yes | Show the AJAX newsletter signup form. |
+| Section Title | Newsletter Section | Stay Connected | Heading above the newsletter form. |
+| Section Subtitle | Newsletter Section | (sample) | Sub-heading below the title. |
+| Benefits Text (JSON) | Newsletter Section | Sample benefits | JSON array of short benefit strings shown beside the form. |
+| Email Placeholder Text | Newsletter Section | Enter your email address | Placeholder inside the email input. |
+| Subscribe Button Text | Newsletter Section | Subscribe | Label on the subscribe button. |
+| Enable Back to Top Button | Back to Top Button | Yes | Show the floating back-to-top button. |
+| Button Position | Back to Top Button | bottom-right | bottom-right or bottom-left. |
+| Show Payment Icons | Bottom Bar | Yes | Show Visa, Mastercard, PayPal, and Amex icons. |
+| Copyright Text | Bottom Bar | (sample) | Copyright line. Use `{{year}}` for the current year. HTML allowed. |
+| Show Footer Bottom Links | Bottom Bar | Yes | Show the bottom navigation row (Privacy Policy, Terms, etc.). |
+| Footer Bottom Links (JSON) | Bottom Bar | Sample links | JSON array of link objects for the bottom bar. |
 
-| Setting | Default | Description |
-|---|---|---|
-| Enable Footer | Yes | Master toggle for the entire Panth Footer module. |
-| Copyright Text | `© {year} Your Store. All rights reserved.` | Rich-text copyright text. Supports `{year}` placeholder. |
-| Show Payment Logos | Yes | Display payment method logos in the footer. |
-| Footer Background Color | `#1F2937` | Background color for the footer area (Hyva theme). |
-
-### Column Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Enable Columns | Yes | Enable the multi-column layout. |
-| Number of Columns | 4 | Number of columns on desktop (1–6). |
-| Column Content Type | Links | Per column: Links, CMS Block, or Custom HTML. |
-
-### Social Media Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Enable Social Links | Yes | Show the social media icon row. |
-| Network URLs | (empty) | One text input per supported network. Leave empty to hide. |
-| Open in New Tab | Yes | Adds `target="_blank"` to social links. |
-
-### Newsletter Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Enable Newsletter | Yes | Show the newsletter signup block in the footer. |
-| Title | `Subscribe to our newsletter` | Heading above the form. |
-| Description | `Get the latest updates and deals.` | Sub-heading text. |
-| Consent Text | (empty) | Optional GDPR consent checkbox label. |
-
-### Back-to-Top Settings
-
-| Setting | Default | Description |
-|---|---|---|
-| Enable Back-to-Top | Yes | Show the floating back-to-top button. |
-| Scroll Threshold (px) | 300 | Pixels scrolled before the button appears. |
-| Position | Bottom Right | Bottom Right, Bottom Left, or Bottom Center. |
-| Button Color | `#1F2937` | Background color of the button. |
-
-After changing any setting, flush cache:
-```bash
-bin/magento cache:flush
-```
+Footer colors (background, text, button colors) are managed in the Theme Customizer, not in this section.
 
 ---
 
-## Multi-Column Layout
+## How It Works
 
-Configure up to 6 columns, each with its own title, content type, and store-view scope. Content types supported:
-
-- **Links** — a list of name/URL pairs managed from admin
-- **CMS Block** — select any existing CMS block by identifier
-- **Custom HTML** — rich WYSIWYG editor for arbitrary HTML content
-
-Columns stack vertically on mobile, two-up on tablet, and full grid on desktop. The grid automatically balances if you disable columns per store view.
-
----
-
-## Social Media Links
-
-Panth Footer supports the following social networks out of the box:
-
-Facebook, Instagram, X (Twitter), YouTube, LinkedIn, Pinterest, TikTok, WhatsApp, Telegram, Threads, Reddit, Discord, Snapchat, Behance, Dribbble, GitHub.
-
-Add the URL for each network in admin — empty networks are hidden. Icons are SVG-based for crisp rendering on retina displays and are sprited into a single HTTP request.
-
----
-
-## Newsletter Subscription
-
-The newsletter form posts directly to Magento's built-in `newsletter/subscriber/new` controller, so subscribers flow straight into your existing Magento newsletter subscriber list. AJAX submission is used by default to avoid page reloads, with inline success/error messages. If Google reCAPTCHA is enabled for the newsletter form in Magento core, Panth Footer respects that configuration automatically.
-
----
-
-## Back-to-Top Button
-
-The back-to-top button is rendered with zero JS weight when disabled. When enabled, it uses:
-
-- **Hyva** — Alpine.js `x-data` directive, ~200 bytes of inline JS
-- **Luma** — vanilla `IntersectionObserver` + smooth-scroll, ~400 bytes
-
-Configurable threshold, position (bottom-right, bottom-left, bottom-center), and button color.
-
----
-
-## Hyva & Luma Support
-
-Panth Footer ships two complete template sets:
-
-| Theme | Template Path | Styling |
-|---|---|---|
-| Hyva | `view/frontend/templates/hyva/` | Tailwind CSS utility classes |
-| Luma | `view/frontend/templates/` | Standard Magento Luma LESS |
-
-Theme detection is handled by `Panth\Core\Helper\Theme`, so the correct templates load automatically based on the active store theme. No manual switching required.
-
----
-
-## Troubleshooting
-
-| Issue | Cause | Resolution |
-|---|---|---|
-| Footer not displaying | Module disabled or cache not flushed | Run `bin/magento cache:flush` and verify `Enable Footer = Yes` |
-| Social icons missing | SVG sprite not deployed | Run `bin/magento setup:static-content:deploy -f` |
-| Newsletter form submits but no subscriber added | Magento newsletter module disabled | Enable `Magento_Newsletter` module |
-| Back-to-top button not appearing | Scroll threshold too high | Lower the threshold in admin config |
-| Wrong template loading (Hyva vs Luma) | Theme detection cache stale | Flush cache and reload frontend |
-| Styles not applied on Hyva | Tailwind rebuild not run | Run `npm run build-prod` inside your Hyva theme folder |
-
-Enable **Debug Mode** in Panth Core Settings and check `var/log/panth_footer.log` for detailed output.
+1. When enabled, Panth Footer replaces the `footer.container` layout block with its own template.
+2. The active theme is detected via `Panth\Core\Helper\Theme`. If Hyva is active, the Hyva template set loads. Otherwise, the Luma templates load.
+3. The footer template renders the columns, social icons, newsletter form, and bottom bar from admin config values.
+4. The newsletter form posts over AJAX to Magento's built-in `newsletter/subscriber/new` controller. No custom subscriber logic is used, so subscribers appear directly in the Magento newsletter list.
+5. The back-to-top button is rendered in the page. On Hyva it uses an Alpine.js `x-data` directive. On Luma it uses a small vanilla JavaScript snippet. Neither pulls in jQuery.
+6. Colors and theme styling are read from the Theme Customizer config, keeping visual settings in one place.
 
 ---
 
@@ -331,43 +270,39 @@ Enable **Debug Mode** in Panth Core Settings and check `var/log/panth_footer.log
 
 ### Does Panth Footer replace the default Magento footer?
 
-Yes. When enabled, Panth Footer takes over the `footer.container` block and renders its own configurable footer. You can disable it any time to restore the default footer.
+Yes. When enabled it takes over the `footer.container` block and renders the configured layout. Disable it at any time in admin to fall back to the default Magento footer.
 
-### Will this extension work with my Hyva theme?
+### Will it work with my Hyva theme?
 
-Yes. Panth Footer ships complete Hyva templates using Tailwind CSS and Alpine.js. No extra configuration needed — theme detection is automatic via Panth Core.
+Yes. Panth Footer ships complete Hyva templates using Tailwind CSS and Alpine.js. Theme detection is automatic via Panth Core, so nothing needs to be configured manually.
 
-### Can I use different footers per store view?
+### Can I use a different footer on each store view?
 
-Yes. Every setting is store-view scoped, so you can have a completely different footer for each store view, including columns, social links, copyright, and colors.
+Yes. Every setting in the admin config is store-view scoped. You can have completely different column content, social links, newsletter copy, and contact details per store view.
 
-### Does the newsletter form integrate with Mailchimp, Klaviyo, or other ESPs?
+### How do I add links to the columns?
 
-The form submits to Magento's native newsletter subscriber system. If you have a Mailchimp/Klaviyo sync extension installed, subscribers flow through automatically. For direct API integration to external ESPs, we offer custom development — [get a quote](https://kishansavaliya.com/get-quote).
+Links are entered as a JSON array in the admin field for Column 2 and Column 3. The format is `[{"title":"Contact Us","url":"/contact","target":"_self"}]`. An external link uses `"target":"_blank"` and a full URL. The admin field has a built-in JSON beautifier to help format and validate the array.
 
-### Is Panth Footer SEO-friendly?
+### Does the newsletter form work with Mailchimp or other email tools?
 
-Yes. The footer uses semantic HTML5 (`<footer>`, `<nav>`), includes `Organization` / `WebSite` JSON-LD hints when enabled, and lazy-loads non-critical icons. Zero CLS impact on Core Web Vitals.
+The form uses Magento's native newsletter subscriber system. If you have a Mailchimp or Klaviyo sync extension installed, subscribers flow through that automatically. For direct API integration, we offer custom development at [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote).
 
-### Can I add custom HTML to the footer?
+### Can I control footer colors from admin?
 
-Yes. Each column supports a **Custom HTML** content type with a full WYSIWYG editor, so you can add any HTML, shortcodes, or inline CSS.
+Footer colors (background, text, accent) are managed in the Theme Customizer, not inside this configuration section. This keeps all visual theme settings in one central place.
 
-### Does it support multi-language stores?
+### Is the back-to-top button accessible?
 
-Yes. All strings use Magento's `__()` translation function. English translations are included; other languages can be added via standard Magento i18n CSV files.
+Yes. The button has an ARIA label and is keyboard-focusable. On Hyva it is rendered with Alpine.js and appears after the user scrolls down the page.
 
-### Is there a demo site?
+### Does it need Panth Core?
 
-Contact us for a live demo: [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote).
+Yes. `mage2kishan/module-core` is a free, required dependency that Composer installs for you. It provides theme detection and shared admin infrastructure.
 
-### Can I hide Panth branding?
+### Is it translation ready?
 
-Yes. There is no visible Panth branding on the storefront — the footer is 100% your content.
-
-### Does it require Panth Core?
-
-Yes. Panth Core is free and is installed automatically by Composer. It provides theme detection and shared admin configuration.
+Yes. Every label uses Magento's `__()` function, so you can add translations via standard Magento i18n CSV files.
 
 ---
 
@@ -375,6 +310,7 @@ Yes. Panth Core is free and is installed automatically by Composer. It provides 
 
 | Channel | Contact |
 |---|---|
+| Product Page | [kishansavaliya.com/magento-2-footer.html](https://kishansavaliya.com/magento-2-footer.html) |
 | Email | kishansavaliyakb@gmail.com |
 | Website | [kishansavaliya.com](https://kishansavaliya.com) |
 | WhatsApp | +91 84012 70422 |
@@ -382,11 +318,11 @@ Yes. Panth Core is free and is installed automatically by Composer. It provides 
 | Upwork (Top Rated Plus) | [Hire Kishan Savaliya](https://www.upwork.com/freelancers/~016dd1767321100e21) |
 | Upwork Agency | [Panth Infotech](https://www.upwork.com/agencies/1881421506131960778/) |
 
-Response time: 1–2 business days.
+Response time: 1-2 business days.
 
-### 💼 Need Custom Magento Development?
+### Need Custom Magento Development?
 
-Looking for **custom Magento module development**, **Hyva theme customization**, **store migrations**, or **performance optimization**? Get a free quote in 24 hours:
+Looking for **custom Magento module development**, **Hyva theme work**, **store migrations**, or **performance tuning**? Get a free quote in 24 hours:
 
 <p align="center">
   <a href="https://kishansavaliya.com/get-quote">
@@ -403,55 +339,46 @@ Looking for **custom Magento module development**, **Hyva theme customization**,
     <img src="https://img.shields.io/badge/Visit-Panth%20Infotech%20Agency-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Visit Agency" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://kishansavaliya.com">
-    <img src="https://img.shields.io/badge/Visit%20Website-kishansavaliya.com-0D9488?style=for-the-badge" alt="Visit Website" />
+  <a href="https://kishansavaliya.com/magento-2-footer.html">
+    <img src="https://img.shields.io/badge/View%20Product%20Page-magento--2--footer-0D9488?style=for-the-badge" alt="View Product Page" />
   </a>
 </p>
-
-**Specializations:**
-
-- 🛒 **Magento 2 Module Development** — custom extensions following MEQP standards
-- 🎨 **Hyva Theme Development** — Alpine.js + Tailwind CSS, lightning-fast storefronts
-- 🖌️ **Luma Theme Customization** — pixel-perfect designs, responsive layouts
-- ⚡ **Performance Optimization** — Core Web Vitals, page speed, caching strategies
-- 🔍 **Magento SEO** — structured data, hreflang, sitemaps, AI-generated meta
-- 🛍️ **Checkout Optimization** — one-page checkout, conversion rate optimization
-- 🚀 **M1 to M2 Migrations** — data migration, custom feature porting
-- ☁️ **Adobe Commerce Cloud** — deployment, CI/CD, performance tuning
 
 ---
 
 ## About Panth Infotech
 
-Built and maintained by **Kishan Savaliya** — [kishansavaliya.com](https://kishansavaliya.com) — a **Top Rated Plus** Magento developer on Upwork with 10+ years of eCommerce experience.
+Built and maintained by **Kishan Savaliya** ([kishansavaliya.com](https://kishansavaliya.com)), a **Top Rated Plus** Magento developer on Upwork with 10+ years of eCommerce experience.
 
-**Panth Infotech** is a Magento 2 development agency specializing in high-quality, security-focused extensions and themes for both Hyva and Luma storefronts. Our extension suite covers SEO, performance, checkout, product presentation, customer engagement, and store management — over 34 modules built to MEQP standards and tested across Magento 2.4.4 to 2.4.8.
+**Panth Infotech** is a Magento 2 development agency that builds high quality, security focused extensions and themes for both Hyva and Luma storefronts. The extension suite covers SEO, performance, checkout, product presentation, customer engagement, and store management, with each module built to MEQP standards and tested across Magento 2.4.4 to 2.4.8.
 
-Browse the full extension catalog on the [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com) or [Packagist](https://packagist.org/packages/mage2kishan/).
+Browse the full extension catalog on our [Magento extensions page](https://kishansavaliya.com/magento-extensions.html) or on [Packagist](https://packagist.org/packages/mage2kishan/).
 
 ---
 
 ## Quick Links
 
-- 🌐 **Website:** [kishansavaliya.com](https://kishansavaliya.com)
-- 💬 **Get a Quote:** [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote)
-- 👨‍💻 **Upwork Profile (Top Rated Plus):** [upwork.com/freelancers/~016dd1767321100e21](https://www.upwork.com/freelancers/~016dd1767321100e21)
-- 🏢 **Upwork Agency:** [upwork.com/agencies/1881421506131960778](https://www.upwork.com/agencies/1881421506131960778/)
-- 📦 **Packagist:** [packagist.org/packages/mage2kishan/module-footer](https://packagist.org/packages/mage2kishan/module-footer)
-- 🐙 **GitHub:** [github.com/mage2sk/module-footer](https://github.com/mage2sk/module-footer)
-- 🛒 **Adobe Marketplace:** [commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
-- 📧 **Email:** kishansavaliyakb@gmail.com
-- 📱 **WhatsApp:** +91 84012 70422
+| Resource | Link |
+|---|---|
+| **Product Page** | [magento-2-footer.html](https://kishansavaliya.com/magento-2-footer.html) |
+| **Packagist** | [mage2kishan/module-footer](https://packagist.org/packages/mage2kishan/module-footer) |
+| **GitHub** | [mage2sk/module-footer](https://github.com/mage2sk/module-footer) |
+| **Website** | [kishansavaliya.com](https://kishansavaliya.com) |
+| **Free Quote** | [kishansavaliya.com/get-quote](https://kishansavaliya.com/get-quote) |
+| **Upwork (Top Rated Plus)** | [Hire Kishan Savaliya](https://www.upwork.com/freelancers/~016dd1767321100e21) |
+| **Upwork Agency** | [Panth Infotech](https://www.upwork.com/agencies/1881421506131960778/) |
+| **Email** | kishansavaliyakb@gmail.com |
+| **WhatsApp** | +91 84012 70422 |
 
 ---
 
 <p align="center">
-  <strong>Ready to upgrade your Magento 2 footer?</strong><br/>
-  <a href="https://kishansavaliya.com/get-quote">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20Get%20Started%20%E2%86%92-Free%20Quote%20in%2024h-DC2626?style=for-the-badge" alt="Get Started" />
+  <strong>Ready to give your store a fully configured footer?</strong><br/>
+  <a href="https://kishansavaliya.com/magento-2-footer.html">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20See%20Footer%20Extension%20%E2%86%92-Product%20Page%20%26%20Demo-DC2626?style=for-the-badge" alt="See Footer Extension" />
   </a>
 </p>
 
 ---
 
-**SEO Keywords:** magento 2 custom footer, magento 2 footer extension, magento 2 footer builder, magento 2 configurable footer, magento 2 multi-column footer, magento 2 social media footer, magento 2 newsletter footer, magento 2 back to top button, magento 2 footer module, magento 2 hyva footer, magento 2 luma footer, magento 2 responsive footer, magento 2 footer links manager, magento 2 footer CMS blocks, magento 2 payment logos footer, magento 2 copyright text, magento 2 footer customization, magento 2 multi-store footer, panth footer, panth infotech footer, mage2kishan footer, hire magento developer, top rated plus magento freelancer, kishan savaliya magento, magento 2.4.8 footer, php 8.4 magento module, hyva theme footer, luma theme footer, magento 2 footer SEO, magento 2 footer schema, magento 2 newsletter subscription footer, magento 2 social icons, custom magento development india, magento 2 hyva development, magento 2 performance optimization, M1 to M2 migration, adobe commerce cloud expert
+**SEO Keywords:** magento 2 footer extension, magento 2 custom footer, magento 2 footer builder, magento 2 configurable footer, magento 2 multi-column footer, magento 2 footer module, magento 2 social media footer, magento 2 newsletter footer, magento 2 back to top button, magento 2 footer links, magento 2 hyva footer, magento 2 luma footer, magento 2 footer bottom bar, magento 2 payment icons footer, magento 2 copyright text footer, magento 2 contact footer, magento 2 responsive footer, magento 2 multi-store footer, hyva footer extension, hyva alpine js footer, luma footer extension, panth footer, mage2kishan footer, panth infotech, magento 2.4.8 footer, php 8.4 magento module, magento 2 footer social icons, magento 2 footer newsletter subscription, magento 2 footer admin configuration, custom magento development, hire magento developer, top rated plus upwork, kishan savaliya magento
