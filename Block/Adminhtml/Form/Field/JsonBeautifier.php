@@ -1,9 +1,4 @@
 <?php
-/**
- * Copyright (c) Panth Infotech. All rights reserved.
- *
- * JSON Beautifier form field for admin config.
- */
 declare(strict_types=1);
 
 namespace Panth\Footer\Block\Adminhtml\Form\Field;
@@ -13,12 +8,6 @@ use Magento\Framework\Data\Form\Element\AbstractElement;
 
 class JsonBeautifier extends Field
 {
-    /**
-     * Render element HTML with JSON formatting controls
-     *
-     * @param AbstractElement $element
-     * @return string
-     */
     protected function _getElementHtml(AbstractElement $element): string
     {
         $element->setClass('json-beautifier-field');
@@ -55,11 +44,6 @@ class JsonBeautifier extends Field
         return $html;
     }
 
-    /**
-     * Get scoped JavaScript for JSON beautification
-     *
-     * @return string
-     */
     private function getJsonScript(): string
     {
         return <<<'SCRIPT'

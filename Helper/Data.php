@@ -1,7 +1,4 @@
 <?php
-/**
- * Copyright (c) Panth Infotech. All rights reserved.
- */
 declare(strict_types=1);
 
 namespace Panth\Footer\Helper;
@@ -13,20 +10,10 @@ use Magento\Framework\Serialize\Serializer\Json;
 
 class Data extends AbstractHelper
 {
-    /**
-     * Config path prefix
-     */
     private const XML_PATH_FOOTER = 'panth_footer/';
 
-    /**
-     * @var Json
-     */
     private Json $jsonSerializer;
 
-    /**
-     * @param Context $context
-     * @param Json $jsonSerializer
-     */
     public function __construct(
         Context $context,
         Json $jsonSerializer
@@ -35,13 +22,6 @@ class Data extends AbstractHelper
         $this->jsonSerializer = $jsonSerializer;
     }
 
-    /**
-     * Get config value
-     *
-     * @param string $field
-     * @param int|null $storeId
-     * @return mixed
-     */
     public function getConfigValue(string $field, ?int $storeId = null)
     {
         return $this->scopeConfig->getValue(
@@ -51,21 +31,11 @@ class Data extends AbstractHelper
         );
     }
 
-    /**
-     * Check if Core module is enabled
-     *
-     * @return bool
-     */
     private function isCoreModuleEnabled(): bool
     {
         return true;
     }
 
-    /**
-     * Check if custom footer is enabled
-     *
-     * @return bool
-     */
     public function isEnabled(): bool
     {
         if (!$this->isCoreModuleEnabled()) {
@@ -75,33 +45,16 @@ class Data extends AbstractHelper
         return (bool)$this->getConfigValue('general/enabled');
     }
 
-    /**
-     * Get footer layout column count
-     *
-     * @return int
-     */
     public function getLayout(): int
     {
         return (int)$this->getConfigValue('general/layout') ?: 4;
     }
 
-    /**
-     * Check if column is enabled
-     *
-     * @param int $columnNumber
-     * @return bool
-     */
     public function isColumnEnabled(int $columnNumber): bool
     {
         return (bool)$this->getConfigValue("column{$columnNumber}/enabled");
     }
 
-    /**
-     * Get column data
-     *
-     * @param int $columnNumber
-     * @return array
-     */
     public function getColumnData(int $columnNumber): array
     {
         $data = [
@@ -127,12 +80,6 @@ class Data extends AbstractHelper
         return $data;
     }
 
-    /**
-     * Parse JSON links string into array
-     *
-     * @param string|null $json
-     * @return array
-     */
     private function parseLinks(?string $json): array
     {
         if (empty($json)) {
@@ -148,11 +95,6 @@ class Data extends AbstractHelper
         }
     }
 
-    /**
-     * Get social media links
-     *
-     * @return array
-     */
     public function getSocialLinks(): array
     {
         $social = [];
@@ -168,53 +110,28 @@ class Data extends AbstractHelper
         return $social;
     }
 
-    /**
-     * Get copyright text with {{year}} placeholder replaced
-     *
-     * @return string
-     */
     public function getCopyrightText(): string
     {
         $text = (string)$this->getConfigValue('bottom/copyright_text');
         return str_replace('{{year}}', date('Y'), $text);
     }
 
-    /**
-     * Check if payment icons should be shown
-     *
-     * @return bool
-     */
     public function showPaymentIcons(): bool
     {
         return (bool)$this->getConfigValue('bottom/show_payment_icons');
     }
 
-    /**
-     * Check if footer bottom links should be shown
-     *
-     * @return bool
-     */
     public function showFooterLinks(): bool
     {
         return (bool)$this->getConfigValue('bottom/show_footer_links');
     }
 
-    /**
-     * Get footer bottom links
-     *
-     * @return array
-     */
     public function getFooterLinks(): array
     {
         $linksJson = $this->getConfigValue('bottom/footer_links');
         return $this->parseLinks($linksJson);
     }
 
-    /**
-     * Get grid column CSS classes for layout
-     *
-     * @return string
-     */
     public function getGridClasses(): string
     {
         $layout = $this->getLayout();
@@ -227,12 +144,6 @@ class Data extends AbstractHelper
         return $classes[$layout] ?? $classes[4];
     }
 
-    /**
-     * Get social media icon SVG markup
-     *
-     * @param string $platform
-     * @return string
-     */
     public function getSocialIcon(string $platform): string
     {
         $icons = [
@@ -247,43 +158,23 @@ class Data extends AbstractHelper
         return $icons[$platform] ?? '';
     }
 
-    /**
-     * Check if newsletter section is enabled
-     *
-     * @return bool
-     */
     public function isNewsletterEnabled(): bool
     {
         return (bool)$this->getConfigValue('newsletter/enabled');
     }
 
-    /**
-     * Get newsletter title
-     *
-     * @return string|null
-     */
     public function getNewsletterTitle(): ?string
     {
         $value = $this->getConfigValue('newsletter/title');
         return $value !== null ? (string)$value : null;
     }
 
-    /**
-     * Get newsletter subtitle
-     *
-     * @return string|null
-     */
     public function getNewsletterSubtitle(): ?string
     {
         $value = $this->getConfigValue('newsletter/subtitle');
         return $value !== null ? (string)$value : null;
     }
 
-    /**
-     * Get newsletter benefits list
-     *
-     * @return array
-     */
     public function getNewsletterBenefits(): array
     {
         $benefitsJson = $this->getConfigValue('newsletter/benefits');
@@ -300,49 +191,26 @@ class Data extends AbstractHelper
         }
     }
 
-    /**
-     * Get newsletter email placeholder text
-     *
-     * @return string
-     */
     public function getNewsletterPlaceholder(): string
     {
         return (string)($this->getConfigValue('newsletter/placeholder_text') ?: 'Enter your email address');
     }
 
-    /**
-     * Get newsletter button text
-     *
-     * @return string
-     */
     public function getNewsletterButtonText(): string
     {
         return (string)($this->getConfigValue('newsletter/button_text') ?: 'Subscribe');
     }
 
-    /**
-     * Check if back to top button is enabled
-     *
-     * @return bool
-     */
     public function isBackToTopEnabled(): bool
     {
         return (bool)$this->getConfigValue('back_to_top/enabled');
     }
 
-    /**
-     * Get back to top button position
-     *
-     * @return string
-     */
     public function getBackToTopPosition(): string
     {
         return (string)($this->getConfigValue('back_to_top/position') ?: 'bottom-right');
     }
 
-    /**
-     * Get back to top button background color
-     */
     public function getBackToTopBgColor(): string
     {
         return (string)($this->scopeConfig->getValue(
@@ -351,9 +219,6 @@ class Data extends AbstractHelper
         ) ?: '#1a1a2e');
     }
 
-    /**
-     * Get back to top button icon color
-     */
     public function getBackToTopIconColor(): string
     {
         return (string)($this->scopeConfig->getValue(
@@ -362,9 +227,6 @@ class Data extends AbstractHelper
         ) ?: '#ffffff');
     }
 
-    /**
-     * Get back to top button hover background color
-     */
     public function getBackToTopHoverBgColor(): string
     {
         return (string)($this->scopeConfig->getValue(
@@ -373,9 +235,6 @@ class Data extends AbstractHelper
         ) ?: '#16213e');
     }
 
-    /**
-     * Get back to top button hover icon color
-     */
     public function getBackToTopHoverIconColor(): string
     {
         return (string)($this->scopeConfig->getValue(
@@ -384,124 +243,76 @@ class Data extends AbstractHelper
         ) ?: '#ffffff');
     }
 
-    /**
-     * Get footer background color
-     */
     public function getBackgroundColor(): string
     {
         return (string)($this->getThemeColor('footer/bg_color') ?: '#1a1a2e');
     }
 
-    /**
-     * Get footer text color
-     */
     public function getTextColor(): string
     {
         return (string)($this->getThemeColor('footer/text_color') ?: '#a0a0b0');
     }
 
-    /**
-     * Get footer H2 heading color
-     */
     public function getH2Color(): string
     {
         return (string)($this->getThemeColor('footer/h2_color') ?: '#ffffff');
     }
 
-    /**
-     * Get footer H3 heading color
-     */
     public function getH3Color(): string
     {
         return (string)($this->getThemeColor('footer/h3_color') ?: '#ffffff');
     }
 
-    /**
-     * Get newsletter background color
-     */
     public function getNewsletterBackgroundColor(): string
     {
         return (string)($this->getThemeColor('newsletter/bg_color') ?: '#16213e');
     }
 
-    /**
-     * Get newsletter title color
-     */
     public function getNewsletterTitleColor(): string
     {
         return (string)($this->getThemeColor('newsletter/title_color') ?: '#ffffff');
     }
 
-    /**
-     * Get newsletter text color
-     */
     public function getNewsletterTextColor(): string
     {
         return (string)($this->getThemeColor('newsletter/text_color') ?: '#a0a0b0');
     }
 
-    /**
-     * Get newsletter button color
-     */
     public function getNewsletterButtonColor(): string
     {
         return (string)($this->getThemeColor('newsletter/button_color') ?: '#e94560');
     }
 
-    /**
-     * Get newsletter button text color
-     */
     public function getNewsletterButtonTextColor(): string
     {
         return (string)($this->getThemeColor('newsletter/button_text_color') ?: '#ffffff');
     }
 
-    /**
-     * Get newsletter button hover color
-     */
     public function getNewsletterButtonHoverColor(): string
     {
         return (string)($this->getThemeColor('newsletter/button_hover_color') ?: '#d63851');
     }
 
-    /**
-     * Get newsletter input background color
-     */
     public function getNewsletterInputBgColor(): string
     {
         return (string)($this->getThemeColor('newsletter/input_bg_color') ?: '#0f3460');
     }
 
-    /**
-     * Get newsletter input text color
-     */
     public function getNewsletterInputTextColor(): string
     {
         return (string)($this->getThemeColor('newsletter/input_text_color') ?: '#ffffff');
     }
 
-    /**
-     * Get newsletter input border color
-     */
     public function getNewsletterInputBorderColor(): string
     {
         return (string)($this->getThemeColor('newsletter/input_border_color') ?: '#1a4a7a');
     }
 
-    /**
-     * Get newsletter input focus border color
-     */
     public function getNewsletterInputFocusBorderColor(): string
     {
         return (string)($this->getThemeColor('newsletter/input_focus_border_color') ?: '#e94560');
     }
 
-    /**
-     * Get theme customizer color value
-     *
-     * @param string $path
-     * @return string|null
-     */
     private function getThemeColor(string $path): ?string
     {
         return $this->scopeConfig->getValue(
